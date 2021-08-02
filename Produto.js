@@ -1,3 +1,5 @@
+
+
 class Produto{
   //Pordutos tem: nome, preco, descricão, peso, marca, modelo
   constructor(){
@@ -40,3 +42,4 @@ console.log("Descrição :",Produtos.descricao);
 Produtos.AdicionarAoCarrinho();
 Produtos.Comprar();
 Produtos.Status();
+
