@@ -6,10 +6,10 @@ Exemplo:
 
 ```
   classe jogo(){
-    nome: "CS:GO";
-    desenvolvedora: "Valve";
-    tipo: "Ação";
-    faixa_etaria: 16:
+    nome = "CS:GO";
+    desenvolvedora = "Valve";
+    tipo = "Ação";
+    faixa_etaria = 16:
   }
 ```
 
@@ -29,10 +29,10 @@ Exemplo:
 
 ```
   classe jogo(){
-    nome: "CS:GO";
-    desenvolvedora: "Valve";
-    tipo: "Ação";
-    faixa_etaria: 16:
+    nome = "CS:GO";
+    desenvolvedora=  "Valve";
+    tipo = "Ação";
+    faixa_etaria= 16:
 
     Executar(){
       ação a ser executada;
