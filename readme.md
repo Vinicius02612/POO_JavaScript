@@ -117,7 +117,7 @@ vingadores.duracao = "26:23:01"
 vingadores.atores = [tony, thor, hulk];
 ```
 
-# -- CONTRUCTOR() --
+# -- CONSTRUCTOR() --
 
 <p>O Contructor é uma função especial  que é responsável por gerar a instancia dos objetos na memória que podem ser acessados pelo <strong>this</strong> que podem ser acessados por parametros na função construtora.</p>
 
