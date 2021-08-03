@@ -7,7 +7,7 @@ class Cardapio{
   }
 
   Pedir(){
-    console.log("Pedindo cardapio...");
+    console.log("Pedindo cardapio...",  this.comidas , this.preco);
   }
 
   ler(){
@@ -23,3 +23,5 @@ console.log("Comidas",cardapio.comidas);
 console.log("bebidas ",cardapio.bebidas);
 console.log("sobre mesa ",cardapio.sobre_mesa);
 console.log("preco ", cardapio.preco);
+
+cardapio.Pedir();
