@@ -59,26 +59,77 @@ Exemplo:
 
 # -- Abstract (Abstração) --
 
-Abstração em POO é  observar a realidade e dela abstrair atributos,açoes e caracteristicas considerados essenciais para um aplicação. 
+<p>Abstração em POO é  observar a realidade e dela abstrair atributos,açoes e caracteristicas considerados essenciais para um aplicação. </p>
 
-Por exemplo se abstrair-mos um filme da vida real para criar uma aplição com a do NETFLIX
+<p>Por exemplo se abstrair-mos um filme da vida real para criar uma aplição com a do NETFLIX</p>
 
 Primerio sabe-se que em filme tem-se: 
 Os Atrbutos 
 
 ```
  classe filme{
-   titulo ="vindores";
-   ano = "2016";
-   Sinopse = "bllalasdd";
-   Genero = "Ação";
-   Diretor = "keving fight"
-   Atores = [
-     "Tony Sterco",
-     "Viuva Negra",
-     "Thor",
-     "hulk"
-     etc ]
-   Duracao = 2:56:02
+   titulo ="";
+   ano = "";
+   Sinopse = "";
+   Genero = "";
+   Diretor = "";
+   Atores = [ ];
+   Duracao = "";
+// Que tambem tem metodos
+   Reproduzir(){
+     console.log("Reproduzir...");
+   }
+
+   Pausar(){
+     console.log("Pausado");
+   }
+
+   Avancar(){
+     console.log("Avançar >>>");
+   }
+
+   Fechar(){
+     console.log("Fechar x")
+   }
+
+   
  }
 ```
+
+# -- OBJETO --
+
+<p>Objetos são instancias de uma classe, falando dos filmes imagine que um vc tem um filme VINGADORES e um filme LIGA DA jUSTIÇA pra assitir. Ambos se derivam da classe filme, porem cada um tem caracteristicas diferentes mas com atributos semelhantes, nesse caso cada da um faz parte da mesma classe Filme.</p>
+
+pode se criar cópias de uma  classe criando instancia dela:
+no caso da classe filme temos:
+
+```
+var vingadore = new Filmes();
+```
+
+dessa forma pode-se acessar todas os atributos e metodos dessa classe;
+
+```
+vingadores.titulo = "A era de Ultron"
+vingadores.ano = "2016"
+vingadores.sinopse = "Ultron mete porrada em todo mundo..."
+vingadores.duracao = "26:23:01"
+vingadores.atores = [tony, thor, hulk];
+```
+
+# -- CONTRUCTOR() --
+
+<p>O Contructor é uma função especial  que é responsável por gerar a instancia dos objetos na memória que podem ser acessados pelo <strong>this</strong> que podem ser acessados por parametros na função construtora.</p>
+
+exemplo
+ ```
+constructor(titulo, duracao, ano, sinopse, genero){
+  this.titulo = titulo;
+  this.duracao = duracao;
+  this.ano = ano;
+  this.sinopse = sinopse;
+  this.genero = genero;s
+}
+
+var vingadores = new Filme("era de merda",26:23:00, 2026, "não tem sinospe");
+``` 
