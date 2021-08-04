@@ -133,3 +133,50 @@ constructor(titulo, duracao, ano, sinopse, genero){
 
 var vingadores = new Filme("era de merda",26:23:00, 2026, "não tem sinospe");
 ``` 
+
+# -- METODOS ESTÁTICOS --
+
+Os metodos estáticos permite que voce acesse metodos de uma classe sem precisar estanciar ou seja criar manualmente um objeto da classe:
+
+exemplo :
+
+ ```
+ //classe sem os metodos static
+  class Calculadora{
+    //....Atributos da classe
+
+    Somar(a, b){
+      console.log(a+b);
+    }
+
+    Subtrair(a,b){
+      console.log(a + b);
+    }
+  }
+  //acessandos os atributos da classe 
+   const Calcular = new Calculadora();
+   Calcular.Somar(10,20);
+   Calcular.Subtrair(10,20);
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  // classe usando os metodos static
+    class Calculadora1{
+    //....Atributos da classe
+
+    static Somar(a, b){
+      console.log(a+b);
+    }
+
+    static Subtrair(a,b){
+      console.log(a + b);
+    }
+  }
+
+  acessando os metodos da classe claculadora1 com static
+  Calculadora1.Somar(10,20);
+  Calculadora1.Subtrair(10,20);
+
+ ```
+
+Note que para acessar os metodos da classe Calculadora1 não foi necessário criar uma nova instancia dela
+que pode ser acessada diretamente.
