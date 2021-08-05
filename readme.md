@@ -140,6 +140,9 @@ constructor(titulo, duracao, ano, sinopse, genero){
 var vingadores = new Filme("era de merda",26:23:00, 2026, "não tem sinospe");
 ``` 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9da243a76cf5a08bdf25544b9a5361e036685d6a
 
 # -- METODOS ESTÁTICOS --
 
@@ -179,14 +182,19 @@ exemplo :
     }
   }
 
+<<<<<<< HEAD
 // Note que para acessar os metodos da classe Calculadora1 não foi necessário criar uma nova 
 //  instancia dela que pode ser acessada diretamente.
 //  acessando os metodos da classe claculadora1 com static
+=======
+  acessando os metodos da classe claculadora1 com static
+>>>>>>> 9da243a76cf5a08bdf25544b9a5361e036685d6a
   Calculadora1.Somar(10,20);
   Calculadora1.Subtrair(10,20);
 
  ```
 
+<<<<<<< HEAD
 
 
 
@@ -250,3 +258,7 @@ dessa forma todas vez que eu precisar das funcionalidades dessas classes não te
 É basicamente a mesma coisa que COMPOSIÇÃO no JavaScrpt, é usado para reutilzar códigos a unica diferença é
 herança tem uma sintax um pouco mais simples...
 
+=======
+Note que para acessar os metodos da classe Calculadora1 não foi necessário criar uma nova instancia dela
+que pode ser acessada diretamente.
+>>>>>>> 9da243a76cf5a08bdf25544b9a5361e036685d6a
