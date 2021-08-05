@@ -6,10 +6,10 @@ class Dado{
       this.face = face;
   }
 
-   rolarDado(){
+  rolarDado(){
         console.log("Resultado do dado "+ this.GerarNumero(1, this.face))
   }
-
+//gerando numeros aleatórios... 
   GerarNumero(max ,min){
     min  = Math.ceil(min);
     max  = Math.floor(max);
